@@ -46,12 +46,11 @@ const router = createRouter({
   routes,
   linkActiveClass: 'exact-active',
   scrollBehavior (to, from, savedPosition) {
-    if (to.fullPath.match('/')) {
-      return {
-        top: 0 // 在切換不同頁面時 仍會保持在最上面的位置
-      }
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
     }
-    return {}
   }
 })
 
