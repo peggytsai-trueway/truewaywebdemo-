@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+DEMO pages:
+https://peggytsai-trueway.github.io/truewaywebdemo-/#/
