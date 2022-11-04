@@ -361,11 +361,23 @@
       <div class="row py-5 align-items-center">
         <div class="col-md-7 order-md-1 order-2">
           <h2 class="text-white fw-bold fst-italic">{{$t("visitus.title")}}</h2>
-          <p class="text-white fw-bold" >{{$t("visitus.desc")}}
-            <br/>{{ $t("visitus.desc-1")}}
+          <p class="text-white fw-bold " >{{$t("visitus.desc")}} <br/>
+            {{$t("visitus.desc-1")}}
+            <br/>{{ $t("visitus.desc-2")}}
           </p>
-          <router-link to="/exhibition" class="btn btn-primary  float-end mb-3">{{ $t("button.findoutmore")}}
+          <router-link to="/exhibition" class="btn btn-primary float-end ">{{ $t("button.findoutmore")}}
           </router-link>
+          <div class="text-white pt-9 ms-md-3 ms-0 ">
+            <h3 class="fs-6">Recent Exhibition:</h3>
+          <ul>
+            <li>
+            <a href="#" class="text-white">2022 ISPO (Munich)</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">2023 Performance Day (Functional Fabric Fair, Munich)</a>
+            </li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-5 order-md-2 order-1">
           <img class="img-fluid" src="@/assets/images/Frontend/visit-1.png" alt="exhibition image">

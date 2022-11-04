@@ -106,8 +106,9 @@
   },
   "visitus":{
     "title": "拜訪我們",
-    "desc": "歡迎拜訪我們位於台灣的辦公室及生產工廠，或是參訪我們在ISPO國際體育用品博覽會及德國慕尼黑Performance Days的功能性紡織展的展覽攤位。",
-    "desc-1":"歡迎隨時聯繫!"
+    "desc": "歡迎拜訪我們!",
+    "desc-1" : "我們會在ISPO國際體育用品博覽會及德國慕尼黑Performance Days的功能性紡織展中參展",
+    "desc-2":"歡迎隨時聯繫!"
   },
   "footer":{
     "quicklinks": "快速連結",

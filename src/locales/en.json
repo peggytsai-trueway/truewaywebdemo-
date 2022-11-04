@@ -106,8 +106,9 @@
     },
     "visitus":{
       "title": "EXHIBITION",
-      "desc": "We will be participating EXPO such as ISPO and Performance Day.",
-      "desc-1":"Please feel free to contact us."
+      "desc": "You are welcome to visit us!",
+      "desc-1": "We will be participating EXPO such as ISPO and Performance Day.",
+      "desc-2": "Please feel free to contact us."
     },
     "footer":{
       "quicklinks": "QUICK LINKS",
