@@ -1,0 +1,127 @@
+{
+    "nav":{
+        "home": "Home",
+        "aboutus": "About Us",
+        "producttype": {
+            "products": "Products",
+            "watersports": "For Water Sports",
+            "outdoorsports": "For Outdoor Sports",
+            "otherenduse": "Other End Use"
+        },
+        "trend": "Trend",
+        "tech": "Technology",
+        "certification": "Certifications",
+        "exhib": "Exhibitions",
+        "contact": "Contact Us"
+    },
+    "button":{
+      "findoutmore": "Find Out More"
+    },
+    "about":{
+        "buttons":{
+            "ourstory": "Our Story",
+            "history": "History",
+            "vision": "Vision"
+        },
+        "modals":{
+            "ourstory": {
+              "title": "Our Story",
+              "subtitle": "Trueway - in brief",
+              "p1": "Trueway Corporation was born in 1980. Initially, the purpose of the business was for the founder, Mr. Hwang Yung Mao, to make enough money to buy a car for his family. At that time, one of his relatives was offering to sell him 4 antique knitting machines at a bargain price. He purchased them and started the business.",
+              "p2": "Mr. Hwang soon understood that if you intend to make the grade, you not only need a good idea but you also need the right timing. When in the 1980's the business started to struggle, he looked for alternatives and started to develop industrial laminated fabrics, undeterred. At that time, most production techniques for laminated fabrics were from Japan and America. Taiwan did not yet have that kind of manufacturing ability. Nevertheless, Mr. Hwang jumped into this new market determinedly. He subsequently discovered that most laminated fabrics were used for water sport products, and has focused on these kind of fabrics to this day. As a good representation of its honesty and sincerity in everything it does –critical when dealing with an export market- the company was fittingly named “True Way.",
+              "p3": "From the outset, Trueway focused on the manufacture of fabrics, and subsequently water sport fabrics. Today, with the increasing environmental issues and need for energy saving, Mr. Huang has begun integrating all these concerns into the development of the QUBICFIT range of clothing.",
+              "p4": "Trueway was founded 30 years. During that time, Trueway has always tried to show its commitment to the improvement of our environment. Trueway's core values have always been intricately linked to environmental protection and esteem for people. Trueway not only meets the Oeko-Tex Standard 100 certification standards, which means that Trueway's products do not make use of harmful substances. In addition, the company has also received bluesign＠certification which considers resource productivity, consumer safety, air emission, water emission and occupational health and safety together, in order to provide solutions concerning “Environment, Health and Safety” (EHS) on all levels.Reinvesting resources in ensuring that we are doing something meaningful towards the protection and preservation of our environment, as well as creating safe working conditions for our staff, is our pride. In a sense, it is Trueway's own real personal success story so far."
+            },
+            "history":{
+                "title": "History",
+                "subtitle":"About Us", 
+                "subtitle2":"Milestone",
+                "p1":"Established in 1980, Trueway Corporation is a supplier of quality industrial fabrics achieved using complete knitting, dyeing and finishing processes.",
+                "p2":"Trueway is ISO 9001 certified, meets the Oeko-Tex Standard 100 and EN471 requirements, and also achieves bluesign＠ certificate, staying ahead in our industry requires relentless efforts in R&D combined with strictly adhered quality standards. These two factors have always been at the core of our business and have fueled our growth over the years, to make Trueway a truly outstanding player in this field.",
+                "p3":"Besides, we have also been strengthening our CRM which will in turn result in better professional technological support, as well as customer-centric customized cooperation. In short, Trueway is putting its customers first once again.",
+                "timeline":{
+                  "2014": "ISPO Textrend Forum TOP 10 & Selected Award.",
+                  "2013": "ISPO Textrend Forum TOP 10 Award.",
+                  "2012": "Achieves BSI carbon footprint certification.",
+                  "2011": "3-eco strategies, ECO material, Eco engineering & ECO energy , are addressed for Trueway's sustainable goal.",
+                  "2010": "Achieves ISO 17025 certificate.",
+                  "2009": "ISO9001 certification for year 2008.",
+                  "2008": "Becomes a bluesign® system partner and improves Human Resource Management System.",
+                  "2007": "Knowledge management is implemented and new Corporate Identity is launched.",
+                  "2006": "New factory final completion and relocation.",
+                  "2005": "New factory is built with state of the art facilities.",
+                  "2003": "Oeko-Tex Standard 100、BTTG EN471 international certification.",
+                  "2001": "ISO9001 certification for year 2000.",
+                  "1999": "Company gets information-oriented system overhaul. Trueway becomes an “e-company",
+                  "1992": "Dyeing department and laboratory room strengthen the company's proposition.",
+                  "1986": "Diving Suit products are added to the Trueway offering, making it a weaving and cloth factory.",
+                  "1980": "Mr. Hwang Yung Mao establish True Way Knitting Factory LTD., a ready-made cloth OEM manufacturer."
+                }
+            },
+            "vision":{
+              "title":"Vision",
+              "subtitles":{
+                "tech": "Technology",
+                "client":"Customer",
+                "eco": "Environmentally Friendly"
+              },
+              "p1": "With a combination of outstanding production techniques and product quality, Trueway has earned the trust from its global and local customers. Trueway's vision is reflected in its brand slogan; 'From Fabric to Future', and is further strengthened through its corporate values; Technology driven, Customer oriented and Environmentally friendly. Trueway is striving forward by bringing value to all of its customers while being environmentally responsible, thus ensuring successful business continuity.",
+              "p2": "Need is the main driver for humans’ advancement. Developing products that correspond to user needs and conveniences is Trueway's mission. And this great mission leads Trueway to pursue progress in everything it does to produce top of the range products. Product technology leads trends. Trueway's R&D team sets the trends!",
+              "p3": "Customers' support and advocacy are the pillars for Trueway's operation. Therefore, for Trueway's customers to identify with its real product proposition and to feel confident in a strong partnership, Trueway strives to provide excellent Research and Development support during front-end and rear-end development. Trueway supports its clients throughout each process phase to make the experience a pleasurable one.",
+              "p4": "Trueway aims to co-exist with nature, internally and externally, in a more energy sustainable way. At the beginning of each project, Trueway's R&D team will consider all possibilities to lower environmental pollution through its manufacturing process."
+          }
+        }
+    },
+    "products":{
+      "title": "PRODUCTS",
+      "desc-1": "Trueway produces a wide range of fabrics for water sports ,outdoor sports , and other end use .",
+      "desc-2": "Customization is our specialty. Eco issue is always concerned during our R&D and production process",
+      "producttype":{
+        "watersports":{
+          "title":"For Water Sports",
+          "desc": "Trueway produces a wide range of fabrics for water sports, such as surfing, sailing, waterskiing, caving and swimming..."
+        },
+        "outdoorsports":{
+          "title": "For Outdoor Sports",
+          "desc": "Trueway produces a wide range of fabrics for outdoor sports, such as running, cycling, trekking, mountain climbing and skiing..."
+        },
+        "otherenduse":{
+          "title": "Other End Use",
+          "desc": "Besides water and outdoor sports fabrics , the knitted fabric we elaborately developed can also be used for shoe lining , shock-absorbing pad of bags , knee and elbow supports …"
+        }
+      }
+    },
+    "certifications":{
+      "title": "CERTIFICATIONS",
+      "desc": "Trueway prefers to adopt eco-friendly elements which are recycled, renewable or chemically optimized in its product ranges providing long-lasting, low pollution characteristics without compromising on the quality.",
+      "desc-1":"In order to become a certified sustainable manufacturer, what else are we trying to implement now ?"
+    },
+    "trend":{
+      "title": "TREND",
+      "desc": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet, ctetur adipisicing elit. Quam, sequi!adipisicing elit. Consequatur veritatis nostrum Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, adipisci!"
+    },
+    "technology":{
+      "title":"TECHNOLOGY",
+      "desc":"From special material use to finishing procedure, from incoming quality control to final textile inspections, Trueway keeps every sections up. This results in developing products for its customers that comply with international standards."
+    },
+    "visitus":{
+      "title": "EXHIBITION",
+      "desc": "We will be participating EXPO such as ISPO and Performance Day.",
+      "desc-1":"Please feel free to contact us."
+    },
+    "footer":{
+      "quicklinks": "QUICK LINKS",
+      "links":{
+        "aboutus": "About Us",
+        "products": "Products",
+        "trend": "Trend",
+        "tech":"Technology",
+        "certification": "Certifications",
+        "exhib":"Exhibitions"
+      },
+      "contact":{
+        "title": "CONTACT",
+        "addr": "No. 50, Dongyuan Rd.,Jhongli Dist.,Taoyuan City 32063, Taiwan(R.O.C)"
+      }
+    }
+}

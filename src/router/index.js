@@ -1,25 +1,58 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    component: () => import('../views/Frontend/FrontView.vue'),
+    children: [
+      {
+        path: '',
+        component: () => import('../views/Frontend/HomeView.vue')
+      },
+      {
+        path: '/watersports',
+        component: () => import('../views/Frontend/WaterSports.vue')
+      },
+      {
+        path: '/outdoorsports',
+        component: () => import('../views/Frontend/OutdoorSports.vue')
+      },
+      {
+        path: '/otherenduse',
+        component: () => import('../views/Frontend/OtherendUse.vue')
+      },
+      {
+        path: '/trend',
+        component: () => import('../views/Frontend/TrendView.vue')
+      },
+      {
+        path: '/technology',
+        component: () => import('../views/Frontend/TechView.vue')
+      },
+      {
+        path: '/exhibition',
+        component: () => import('../views/Frontend/ExhibView.vue')
+      }
+    ]
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/:pathMatch(.*)*',
+    redirect: '/'
   }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  linkActiveClass: 'exact-active',
+  scrollBehavior (to, from, savedPosition) {
+    if (to.fullPath.match('/')) {
+      return {
+        top: 0 // 在切換不同頁面時 仍會保持在最上面的位置
+      }
+    }
+    return {}
+  }
 })
 
 export default router
