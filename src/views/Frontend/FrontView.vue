@@ -1,7 +1,9 @@
 <template>
+  <div class="fixed-margin">
     <FrontNavbar></FrontNavbar>
     <router-view></router-view>
     <FrontFooter></FrontFooter>
+  </div>
 </template>
 
 <script>
@@ -14,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.fixed-margin{
+  margin-top: 57.6px;
+}
+</style>

@@ -36,6 +36,10 @@ const routes = [
     ]
   },
   {
+    path: '/login',
+    component: () => import('../views/Dashboard/LoginView.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     redirect: '/'
   }

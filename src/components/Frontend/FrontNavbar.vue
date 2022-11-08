@@ -5,48 +5,48 @@
         <img src="@/assets/menu-icon-trueway-logo.png" alt="TruewayLogo" />
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" @click="closeNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" ref="navcollapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link fw-bold " aria-current="page" to="/">{{ $t("nav.home") }}</router-link>
+            <router-link class="nav-link fw-bold" to="/" @click="closeNav">{{ $t("nav.home") }}</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold"  @click.prevent="goToPosition('about')">{{ $t("nav.aboutus") }}</a>
+            <a class="nav-link fw-bold"  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" @click.prevent="goToPosition('about')">{{ $t("nav.aboutus") }}</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" @click.prevent="goToPosition('product')">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false" @click.prevent="goToPosition('product')">
               {{ $t("nav.producttype.products") }}
             </a>
             <ul class="dropdown-menu mt-0">
               <li>
-                <router-link class="dropdown-item  fw-bold" to="/watersports">{{ $t("nav.producttype.watersports") }}</router-link>
+                <router-link class="dropdown-item  fw-bold" to="/watersports" @click="closeNav">{{ $t("nav.producttype.watersports") }}</router-link>
               </li>
               <li>
-                <router-link class="dropdown-item  fw-bold" to="/outdoorsports">{{ $t("nav.producttype.outdoorsports") }}
+                <router-link class="dropdown-item  fw-bold" to="/outdoorsports" @click="closeNav">{{ $t("nav.producttype.outdoorsports") }}
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item  fw-bold" to="/otherenduse">{{ $t("nav.producttype.otherenduse") }}</router-link>
+                <router-link class="dropdown-item  fw-bold" to="/otherenduse" @click="closeNav">{{ $t("nav.producttype.otherenduse") }}</router-link>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fw-bold" to="/trend">{{ $t("nav.trend") }}</router-link>
+            <router-link class="nav-link fw-bold" to="/trend"  @click="closeNav">{{ $t("nav.trend") }}</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fw-bold" to="/technology">{{ $t("nav.tech") }}</router-link>
+            <router-link class="nav-link fw-bold"  to="/technology" @click="closeNav">{{ $t("nav.tech") }}</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#" @click.prevent="goToPosition('certifications')">{{ $t("nav.certification") }}</a>
+            <a class="nav-link fw-bold" href="#"   data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" @click.prevent="goToPosition('certifications')">{{ $t("nav.certification") }}</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fw-bold" to="/exhibition">{{ $t("nav.exhib") }}</router-link>
+            <router-link class="nav-link fw-bold" to="/exhibition" @click="closeNav">{{ $t("nav.exhib") }}</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#" @click.prevent="goToPosition('contact')">{{ $t("nav.contact") }}</a>
+            <a class="nav-link fw-bold" href="#"   data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" @click.prevent="goToPosition('contact')">{{ $t("nav.contact") }}</a>
           </li>
         </ul>
         <select v-model="locale" class="form-select w-auto border-0 shadow-lg bg-secondary text-white">
@@ -60,8 +60,7 @@
 </template>
 
 <script>
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import NavCollapse from 'bootstrap/js/dist/collapse'
 import { useI18n } from 'vue-i18n'
 export default {
   setup () {
@@ -92,10 +91,19 @@ export default {
         window.pageYOffset = el.offsetTop
       }, 200)
       this.$router.push('/')
-      setTimeout(() => {
-        AOS.init({ })
-      }, 2000)
+    },
+    closeNav () {
+      this.navCollapse.hide()
+    },
+    toggleNav () {
+      this.navCollapse.toggle()
     }
+  },
+  mounted () {
+  // navbar toggler
+    this.navCollapse = new NavCollapse(this.$refs.navcollapse, {
+      toggle: false
+    })
   }
 }
 </script>
