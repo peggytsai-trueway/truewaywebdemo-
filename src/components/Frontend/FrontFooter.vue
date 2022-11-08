@@ -1,10 +1,10 @@
 <template>
     <footer class="bg-primary">
         <div class="container">
-            <div class="row py-md-4 py-3 align-items-md-center">
+            <div class="row pt-md-5  pb-md-3 py-5 ">
                 <div class="col-md-6">
-                    <h3 class="text-white fw-bold fs-5 mb-4">{{t("footer.contact.title")}}</h3>
-                    <ul class="quick-links" id="contact">
+                    <h3 class="text-white fw-bold fs-5 mb-4 mt-lg-7 ">{{t("footer.contact.title")}}</h3>
+                    <ul id="contact">
                         <li class="mb-2"><a class="text-white fw-bold" href="https://goo.gl/maps/tCPA5hcfmFs3skfu5" target="_blank"  title="address"><svg class="me-3 bi bi-house-door-fill" xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path
@@ -23,10 +23,10 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <div class="map-responsive">
+                    <div class="map-responsive mt-3 mt-md-0">
                         <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14466.065186215294!2d121.2399127!3d24.9825666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x118a40484b1db9a4!2z5pm65YGJ57mU6YCg6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1sen!2stw!4v1666858964150!5m2!1sen!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <img src="@/assets/menu-icon-trueway-logo.png" alt="trueway logo" style="width:120px;" class="pt-3 float-end">
+                    <img src="@/assets/menu-icon-trueway-logo.png" alt="trueway logo" style="width:120px;" class="mt-3 float-end">
                 </div>
             </div>
         </div>
@@ -49,16 +49,15 @@ export default {
 <style lang="scss">
 .map-responsive{
 overflow:hidden;
-padding-bottom:56.25%;
+padding-bottom:45%;
 position:relative;
 height:0;
   iframe{
    left:0;
    top:0;
-   height:100%;
+   height:300px;
    width:100%;
    position:absolute;
   }
 }
-
 </style>

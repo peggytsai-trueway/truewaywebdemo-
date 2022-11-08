@@ -3,7 +3,7 @@
     <div class="container banner-hg">
       <div class="banner-bg"></div>
     </div>
-    <div class="marquee-bg bg-secondary">
+    <div class="marquee-bg bg-secondary overflow-auto">
       <div class="container text-white">
         <div>
           <p class="pt-2 mb-0 fw-bold">Latest Update</p>
@@ -297,7 +297,7 @@
             <div class="col-4">
               <div class="certification-card" >
                 <img src="@/assets/images/Frontend/certifications-07.png" alt="OEKO-TEX Standard Image">
-                <h3 class=" text-center text-white">OEKO-TEX STANDARD 100</h3>
+                <h3 class=" text-center text-white">OEKO-TEX <br/>STANDARD 100</h3>
               </div>
             </div>
           </div>
@@ -307,16 +307,17 @@
           <div class="row">
             <div class="col-md-6">
               <div class="d-flex bg-success align-items-center" >
-                <img src="@/assets/images/Frontend/certification-gas.jpg" style="max-width:500px; height:100px;"
-                  alt="gas replaces petroleum image">
+                <div class="w-25">
+                  <img src="@/assets/images/Frontend/certification-gas.jpg" alt="gas replaces petroleum image"  style="width:100%; height:100px;">
+                </div>
                 <h3 class="fs-6 text-white ps-3">Advanced Eco-Friendly System: <br>Fuel: Gas replaces petroleum</h3>
               </div>
             </div>
             <div class="col-md-6">
               <div class="d-flex bg-success align-items-center mt-3 mt-md-0">
-                <!-- 圖片要更換 目前用假圖 -->
-                <img src="https://picsum.photos/300/400?random=2" style="max-width:500px; height:100px;"
-                  alt="gas replaces petroleum image">
+                <div class="w-25">
+                  <img src="@/assets/images/Frontend/patrick-federi-_mZrKqrZaTc-unsplash.jpg" alt="gas replaces petroleum image" style="width:100%; height:100px;">
+                </div>
                 <h3 class="fs-6 text-white ps-3">Planning Eco-Friendly System: <br>Sewage treatment system</h3>
               </div>
             </div>
@@ -367,8 +368,8 @@
           </p>
           <router-link to="/exhibition" class="btn btn-primary float-end ">{{ $t("button.findoutmore")}}
           </router-link>
-          <div class="text-white pt-9 ms-md-3 ms-0 ">
-            <h3 class="fs-6">Recent Exhibition:</h3>
+          <div class="text-white mt-9 ms-md-3 me-md-7 ms-0 shadow-lg rounded p-3">
+            <h3 class="fs-6 fw-bold">Recent Exhibition:</h3>
           <ul>
             <li>
             <a href="#" class="text-white">2022 ISPO (Munich)</a>
@@ -416,6 +417,25 @@ export default {
 
 .marquee-bg {
   height: calc(100vh - 75vh - 57.6px);
+}
+@media screen and (max-width: 996px){
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #355070;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00A3E0;
+  border-radius: 5px;
+}
+
 }
 
 .about {
@@ -494,8 +514,7 @@ export default {
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
-
 </style>
