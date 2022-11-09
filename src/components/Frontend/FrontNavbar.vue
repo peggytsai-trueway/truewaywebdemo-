@@ -49,8 +49,8 @@
             <a class="nav-link fw-bold" href="#"   data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" @click.prevent="goToPosition('contact')">{{ $t("nav.contact") }}</a>
           </li>
         </ul>
-        <select v-model="locale" class="form-select w-auto border-0 shadow-lg bg-secondary text-white">
-          <option v-for="item in languageOptions" :key="`locale-${item.lang}`" :value="item.lang">
+        <select v-model="locale" class="form-select w-auto border-0 shadow-lg bg-secondary text-white" @change="closeNav">
+          <option v-for="item in languageOptions" :key="`locale-${item.lang}`" :value="item.lang" >
             🌐 {{ item.name }}
           </option>
         </select>

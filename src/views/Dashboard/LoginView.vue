@@ -37,6 +37,7 @@
 
 .btn-login {
   background-color: #8B89C7;
+
   &:hover {
     background-color: #A36A7B;
   }

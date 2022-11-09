@@ -258,7 +258,7 @@
         <div class="col-md-6 pt-3 pt-md-0">
           <div class="row">
             <div class="col-4 mb-3">
-              <div class="certification-card" >
+              <div class="certification-card">
                 <img src="@/assets/images/Frontend/certification-1.png" alt="ISO 17025 image">
                 <h3 class="text-center text-white pt-1">ISO 17025</h3>
               </div>

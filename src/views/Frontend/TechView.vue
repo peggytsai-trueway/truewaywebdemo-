@@ -308,4 +308,14 @@
     </div>
   </section>
   <!-- content end -->
+  <VueLoading></VueLoading>
 </template>
+
+<script>
+import VueLoading from '@/components/VueLoading.vue'
+export default {
+  components: {
+    VueLoading
+  }
+}
+</script>

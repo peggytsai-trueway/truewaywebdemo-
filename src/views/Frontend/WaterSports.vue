@@ -97,10 +97,12 @@
      </div>
     </div>
   </section>
+  <VueLoading></VueLoading>
 </template>
 
 <script>
 import { useI18n } from 'vue-i18n'
+import VueLoading from '@/components/VueLoading.vue'
 export default {
   setup () {
     const { t, locale } = useI18n()
@@ -108,6 +110,9 @@ export default {
       t,
       locale
     }
+  },
+  components: {
+    VueLoading
   }
 }
 </script>

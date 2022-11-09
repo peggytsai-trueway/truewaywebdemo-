@@ -62,4 +62,14 @@
       </div>
     </div>
   </section>
+  <VueLoading></VueLoading>
 </template>
+
+<script>
+import VueLoading from '@/components/VueLoading.vue'
+export default {
+  components: {
+    VueLoading
+  }
+}
+</script>
