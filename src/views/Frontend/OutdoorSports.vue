@@ -1,5 +1,5 @@
 <template>
-    <section class="outdoorsports-bg container-fluid">
+    <section class="outdoorsports-bg bg-cover container-fluid">
         <div class="container">
             <div class="row py-5">
                 <div class="col-md-6">
@@ -94,7 +94,6 @@ export default {
     height: 400px;
     width:100%;
     background-position: 40% center;
-    background-size: cover;
     filter: contrast(80%);
     h2, p{
         text-shadow: 3px 3px 5px  #00A3E0;;

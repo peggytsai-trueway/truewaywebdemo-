@@ -1,5 +1,5 @@
 <template>
-  <section class="otherenduse-bg container-fluid">
+  <section class="otherenduse-bg bg-cover container-fluid">
     <div class="container">
       <div class="row py-5">
         <div class="col-md-6">
@@ -15,7 +15,7 @@
     <div class="container">
      <div class="row py-5">
       <nav aria-label="breadcrumb">
-        <ol class="breadcrumb  mb-5">
+        <ol class="breadcrumb mb-5">
           <li class="breadcrumb-item"><router-link class="text-primary" to="/">Home</router-link></li>
           <li class="breadcrumb-item "><router-link class="text-primary" to="/">Products</router-link></li>
           <li class="breadcrumb-item active" aria-current="page">Other End Use</li>
@@ -65,8 +65,7 @@ export default {
     background-image: url(@/assets/images/Frontend/david-marcu-VfUN94cUy4o-unsplash.jpg);
     height: 400px;
     width:100%;
-    background-position:  bottom;
-    background-size: cover;
+    background-position:bottom;
     filter: contrast(80%);
     h2, p{
         text-shadow: 2px 2px 5px #00A3E0;

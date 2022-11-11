@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LoadingVue v-model:active.sync="isLoading" :can-cancel="true" :is-full-page="false">
+    <LoadingVue v-model:active.sync="isLoading" :can-cancel="true" :is-full-page="false" class="bg-loading">
       <div class="loadingio-spinner-spin-0fvhe4eftgic">
         <div class="ldio-g6u0b2mnq3v">
           <div>
@@ -43,12 +43,15 @@ export default {
   mounted () {
     setTimeout(() => {
       this.isLoading = false
-    }, 1000)
+    }, 500)
   }
 }
 </script>
 
 <style lang="scss">
+.bg-loading{
+  background-color:rgba(0, 163, 224, .3);
+}
 @keyframes ldio-g6u0b2mnq3v {
   0% {
     opacity: 1;

@@ -48,10 +48,10 @@ export default {
 
 <style lang="scss">
 .map-responsive{
-overflow:hidden;
-padding-bottom:45%;
-position:relative;
-height:0;
+ overflow:hidden;
+ padding-bottom:45%;
+ position:relative;
+ height:0;
   iframe{
    left:0;
    top:0;
