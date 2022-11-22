@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-4 pt-4">
           <router-link to="/watersports" class="card mx-md-2 h-100 text-dark">
-            <img src="@/assets/images/Frontend/Products-3.jpg" class="card-img-top products-cardHeight"
+            <img src="@/assets/images/Frontend/Home/Products-3.jpg" class="card-img-top products-cardHeight"
               alt="products image for water sports">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{ $t("products.producttype.watersports.title") }}</h5>
@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-4 pt-4">
           <router-link to="/outdoorsports" class="card mx-md-2 h-100 text-dark">
-            <img src="@/assets/images/Frontend/Products-2.jpg" class="card-img-top products-cardHeight"
+            <img src="@/assets/images/Frontend/Home/Products-2.jpg" class="card-img-top products-cardHeight"
               alt="products image for outdoor sports">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{ $t("products.producttype.outdoorsports.title") }}</h5>
@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-4 pt-4">
           <router-link to="/otherenduse" class="card mx-md-2 h-100 text-dark">
-            <img src="https://picsum.photos/200/300?random=1" class="card-img-top products-cardHeight"
+            <img src="@/assets/images/Frontend/Home/yasu-shots-Iq0g7AUgecI-unsplas.jpg" class="card-img-top products-cardHeight"
               alt="products image for other end use">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{ $t("products.producttype.otherenduse.title") }}</h5>
@@ -69,7 +69,7 @@
           <router-link to="/trend" class="btn btn-primary float-end">{{ $t("button.findoutmore") }}</router-link>
         </div>
         <div class="col-md-5">
-          <img src="@/assets/images/Frontend/sergey-mikheev-EIniaP1qCRs-unsplash.jpg"
+          <img src="@/assets/images/Frontend/Home/sergey-mikheev-EIniaP1qCRs-unsplash.jpg"
             class="img-fluid rounded-circle mt-3" alt="trend image" style="max-height:400px;">
         </div>
       </div>
@@ -79,7 +79,7 @@
     <div class="container overflow-hidden">
       <div class="row align-items-end pt-3">
         <div class="col-md-6">
-          <img src="@/assets/images/Frontend/tech-bg.png" class="img-fluid" alt="technology image">
+          <img src="@/assets/images/Frontend/Home/tech-bg.png" class="img-fluid" alt="technology image">
         </div>
         <div class="col-md-6">
           <div class="tech-bg">
@@ -103,7 +103,7 @@
           </p>
           <router-link to="/exhibition" class="btn btn-primary float-end ">{{ $t("button.findoutmore") }}
           </router-link>
-          <div class="text-white mt-9 ms-md-3 me-md-7 ms-0 shadow-lg rounded p-3">
+          <div class="text-white mt-9 ms-md-3 me-md-7 ms-0 shadow-lg bg-notification p-3">
             <h3 class="fs-6 fw-bold">Recent Exhibition:</h3>
             <ul>
               <li>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="col-md-5 order-md-2 order-1">
-          <img class="img-fluid" src="@/assets/images/Frontend/visit-1.png" alt="exhibition image">
+          <img class="img-fluid" src="@/assets/images/Frontend/Home/visit-1.png" alt="exhibition image">
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@ export default {
 }
 
 .banner-bg {
-  background-image: url(@/assets/images/Frontend/home-bg.jpg);
+  background-image: url(@/assets/images/Frontend/Home/home-bg.jpg);
   max-width: 2017px;
   height: 100%;
   margin-top: 57.6px;
@@ -162,7 +162,7 @@ export default {
 }
 
 .products-desc {
-  background-image: url(@/assets/images/Frontend/product.jpg);
+  background-image: url(@/assets/images/Frontend/Home/product.jpg);
   height: 200px;
   background-repeat: no-repeat;
 }
@@ -187,4 +187,7 @@ export default {
   color: #fff;
 }
 
+.bg-notification{
+  background-color:  rgba(69,173,173,.25);
+}
 </style>

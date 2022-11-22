@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-
 const routes = [
   {
     path: '/',
@@ -10,38 +9,38 @@ const routes = [
         component: () => import('../views/Frontend/HomeView.vue')
       },
       {
-        path: '/watersports',
+        path: 'watersports',
         component: () => import('../views/Frontend/WaterSports.vue')
       },
       {
-        path: '/outdoorsports',
+        path: 'outdoorsports',
         component: () => import('../views/Frontend/OutdoorSports.vue')
       },
       {
-        path: '/otherenduse',
+        path: 'otherenduse',
         component: () => import('../views/Frontend/OtherendUse.vue')
       },
       {
-        path: '/trend',
+        path: 'trend',
         component: () => import('../views/Frontend/TrendView.vue')
       },
       {
-        path: '/technology',
+        path: 'technology',
         component: () => import('../views/Frontend/TechView.vue')
       },
       {
-        path: '/exhibition',
+        path: 'exhibition',
         component: () => import('../views/Frontend/ExhibView.vue')
+      },
+      {
+        path: 'exhib',
+        component: () => import('../views/Frontend/ExhibContent.vue')
       }
     ]
   },
   {
     path: '/login',
     component: () => import('../views/Dashboard/LoginView.vue')
-  },
-  {
-    path: '/:pathMatch(.*)*',
-    redirect: '/'
   }
 ]
 

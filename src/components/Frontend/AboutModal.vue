@@ -184,7 +184,7 @@
 <style lang="scss">
 .about {
   &-bg {
-    background-image: url(@/assets/images/Frontend/About-us.jpg);
+    background-image: url(@/assets/images/Frontend/Home/About-us.jpg);
     height: 450px;
     h2 {
       font-size: 30px;

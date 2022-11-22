@@ -62,11 +62,10 @@ export default {
 
 <style lang="scss">
  .otherenduse-bg{
-    background-image: url(@/assets/images/Frontend/david-marcu-VfUN94cUy4o-unsplash.jpg);
+    background-image: url(@/assets/images/Frontend/Products/OtherEndUse/Products-other-end-use.jpg);
     height: 400px;
     width:100%;
-    background-position:bottom;
-    filter: contrast(80%);
+    background-position:center;
     h2, p{
         text-shadow: 2px 2px 5px #00A3E0;
         font-weight: 900;

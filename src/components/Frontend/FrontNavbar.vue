@@ -61,10 +61,10 @@
         </ul>
         <div class="dropdown">
             <button class="btn btn-secondary dropbtn fw-bold text-light" type="button" @click="showMenu">
-              🌐Language<i class="ms-1 bi bi-caret-down-fill text-light"></i>
+              🌐 Language<i class="ms-1 bi bi-caret-down-fill text-light"></i>
             </button>
         <ul ref="ulDrop" class="dropdown-content ps-0 mb-0  bg-success">
-          <li v-for="item in languageOptions" :key="`locale-${item.lang}`" @click="selectLanguage(item.lang)"><a href="#"
+          <li v-for="item in languageOptions" :key="`locale-${item.lang}`" @click.prevent="selectLanguage(item.lang)"><a href="#"
                class="text-light fw-bold">🌐{{ item.name }}</a></li>
         </ul>
       </div>
