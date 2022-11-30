@@ -185,6 +185,7 @@ export default {
 .card-body:hover {
   background-color: #0c0d0d;
   color: #fff;
+  border-radius: 0  0 6px 6px;
 }
 
 .bg-notification{

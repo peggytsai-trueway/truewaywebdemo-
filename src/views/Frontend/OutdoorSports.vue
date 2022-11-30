@@ -35,7 +35,7 @@
               alt="Qdry Fleece">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Next to Skin</h3>
+              <h3 class="fs-6 text-center py-2">ECO Next to Skin</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -44,7 +44,7 @@
             <div class="modal-dialog modal-lg  modal-dialog-centered">
               <div class="modal-content eco-next-to-skin-bg">
                 <div class="modal-header text-light">
-                  <h3 class="modal-title fs-5" id="staticBackdropLabel">ECO Next to Skin</h3>
+                  <h3 class="modal-title fs-5" id="staticBackdropLabel">ECO Next to Skin (GRS available)</h3>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-light">
@@ -69,7 +69,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Midlayer</h3>
+              <h3 class="fs-6 text-center py-2">ECO Midlayer</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -103,7 +103,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Softshell</h3>
+              <h3 class="fs-6 text-center py-2">ECO Softshell</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -137,7 +137,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Next to Skin</h3>
+              <h3 class="fs-6 text-center py-2">Next to Skin</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -171,7 +171,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Midlayer</h3>
+              <h3 class="fs-6 text-center py-2">Midlayer</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -205,7 +205,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Softshell</h3>
+              <h3 class="fs-6 text-center py-2">Softshell</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -239,7 +239,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Trueway Fit</h3>
+              <h3 class="fs-6 text-center py-2">Trueway Fit</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -273,7 +273,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Fabric for Lamination</h3>
+              <h3 class="fs-6 text-center py-2">Fabric for Lamination</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -287,16 +287,15 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, 4 way stretch, excellent recovery </p>
+                  <p>10D~75D of yarn, super lightweight, jacquard design, fleeceable</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, Fashion first layer, Yoga, High stretch applied.</p>
+                  <p>2 layer and 3 layer lamination fabric</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- modal -->
-
         </div>
      </div>
     </div>
@@ -321,7 +320,7 @@ export default {
     background-position: 40% center;
     filter: contrast(80%);
     h2, p{
-        text-shadow: 3px 3px 5px  #00A3E0;;
+        text-shadow: 3px 3px 5px  #00A3E0;
         font-weight: 900;
     }
   }

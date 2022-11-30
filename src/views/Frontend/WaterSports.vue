@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row py-5">
         <div class="col-md-6">
-          <div class="text-white fw-bold ">
+          <div class="text-white fw-bold">
             <h2 class="mb-3">For Water Sports</h2>
             <p class="mb-0">Trueway produces a wide range of fabrics for water sports, such as surfing, sailing,
               waterskiing,caving and swimming.</p>
@@ -38,7 +38,7 @@
               alt="ECO Qdry Fleece">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Qdry Fleece</h3>
+              <h3 class="fs-6 text-center py-2">ECO Qdry Fleece</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -56,7 +56,7 @@
                     yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc. </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Neoprene inner, diving suits, surfing suits. </p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@
               alt="ECO Polyester Stretch">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Polyester Stretch</h3>
+              <h3 class="fs-6 text-center py-2">ECO Polyester Stretch</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -87,10 +87,10 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>Utilizing spandex to provide fabrics with desired stretch and high elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits.</p>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@
               alt="ECO Nylon Stretch">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Nylon Stretch</h3>
+              <h3 class="fs-6 text-center py-2">ECO Nylon Stretch</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -121,10 +121,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>Utilizing spandex to provide fabrics with desired stretch and high elogation, light weight, soft and smooth tough,
+                     vibrant color,  Jacquard and function yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc.  </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits, athletic appliances.</p>
                 </div>
               </div>
             </div>
@@ -141,7 +142,7 @@
               alt="Qdry Fleece">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Qdry Fleece</h3>
+              <h3 class="fs-6 text-center py-2">Qdry Fleece</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -155,10 +156,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>keep warm, quick dry or flash dry with good elongation and soft hand feel.
+                    Jacquard and function yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc. </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -175,7 +177,7 @@
               alt="Polyester Stretch">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Polyester Stretch</h3>
+              <h3 class="fs-6 text-center py-2">Polyester Stretch</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -189,10 +191,12 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>Utilizing spandex to provide fabrics with desired stretch and high elogation, light weight,
+                    soft and smooth tough, vibrant color,  Jacquard and function yarn are available. e.g. logo,
+                    concept image, graphene yarn, Oceanya, etc. </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits, athletic appliances.</p>
                 </div>
               </div>
             </div>
@@ -223,10 +227,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>Utilizing spandex to provide fabrics with desired stretch and high elogation, light weight, soft and smooth tough, vibrant color,
+                    Jacquard and function yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits</p>
                 </div>
               </div>
             </div>
@@ -243,7 +248,7 @@
               alt="Finex">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Finex</h3>
+              <h3 class="fs-6 text-center py-2">Finex</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -257,10 +262,10 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>keep warm, good elongation and soft hand feel. function yarn are available. e.g. logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits.</p>
                 </div>
               </div>
             </div>
@@ -277,7 +282,7 @@
               alt="ECO Polyester">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Polyester</h3>
+              <h3 class="fs-6 text-center py-2">ECO Polyester</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -291,10 +296,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>good elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available. e.g. logo,
+                     concept image, graphene yarn, Oceanya, etc. </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -311,7 +317,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">ECO Nylon</h3>
+              <h3 class="fs-6 text-center py-2">ECO Nylon</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -325,10 +331,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>Wicking, light weight, Quick dry, Stretch </p>
+                  <p>good elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available. e.g.
+                    logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>Active sports, fashion first layer</p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -345,7 +352,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Qubicfit & Functional</h3>
+              <h3 class="fs-6 text-center py-2">Qubicfit & Functional</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -359,10 +366,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>???????</p>
+                  <p>good elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available.
+                    e.g. logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>????</p>
+                  <p>Lift jacket, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -379,7 +387,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Polyester</h3>
+              <h3 class="fs-6 text-center py-2">Polyester</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -393,10 +401,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>???????</p>
+                  <p>good elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available.
+                    e.g. logo, concept image, graphene yarn, Oceanya, etc.</p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>????</p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>
@@ -413,7 +422,7 @@
               alt="">
             </div>
             <div class="btn-title mt-1">
-              <h3 class="fs-6 text-center py-1">Nylon</h3>
+              <h3 class="fs-6 text-center py-2">Nylon</h3>
             </div>
           </button>
           <!-- Modal -->
@@ -427,10 +436,11 @@
                 </div>
                 <div class="modal-body text-light">
                   <h4 class="fs-5">Features</h4>
-                  <p>???????</p>
+                  <p>good elogation, light weight, soft and smooth tough, vibrant color,  Jacquard and function yarn are available.
+                    e.g. logo, concept image, graphene yarn, Oceanya, etc. </p>
                   <hr>
                   <h4 class="fs-5">Application</h4>
-                  <p>????</p>
+                  <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
                 </div>
               </div>
             </div>

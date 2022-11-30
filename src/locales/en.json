@@ -12,7 +12,8 @@
         "tech": "Technology",
         "certification": "Certifications",
         "exhib": "Exhibitions",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "lang": "English"
     },
     "button":{
       "findoutmore": "Find Out More"
@@ -98,7 +99,7 @@
     },
     "trend":{
       "title": "TREND",
-      "desc": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet, ctetur adipisicing elit. Quam, sequi!adipisicing elit. Consequatur veritatis nostrum Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, adipisci!"
+      "desc": "The Self-refined textile technology, matches with the latest fashion trends, creating fabrics that are most suitable for this purpose."
     },
     "technology":{
       "title":"TECHNOLOGY",
@@ -174,5 +175,10 @@
       "title":"MOISTURE WICKING",
       "desc": "Moisture wicking finish makes synthetic fabric absorb sweat while transferring to outside rapidly. The sportswear with moisture wicking finish will dry out much faster than cotton clothing , so it especially suit for baselayer."
      }
+    },
+    "ExhibView":{
+      "News":"NEWS",
+      "Exhibitions":"Exhibitions",
+      "Awards":"Awards"
     }
 }

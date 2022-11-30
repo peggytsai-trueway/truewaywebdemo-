@@ -60,8 +60,9 @@
           </li>
         </ul>
         <div class="dropdown">
-            <button class="btn btn-secondary dropbtn fw-bold text-light" type="button" @click="showMenu">
-              🌐 Language<i class="ms-1 bi bi-caret-down-fill text-light"></i>
+            <button style="width:140px;" class="btn btn-secondary dropbtn fw-bold text-light" type="button" @click="showMenu">
+           🌐 {{ $t("nav.lang") }}
+              <i class="ms-1 bi bi-caret-down-fill text-light"></i>
             </button>
         <ul ref="ulDrop" class="dropdown-content ps-0 mb-0  bg-success">
           <li v-for="item in languageOptions" :key="`locale-${item.lang}`" @click.prevent="selectLanguage(item.lang)"><a href="#"
@@ -115,6 +116,7 @@ export default {
     selectLanguage (val) {
       this.locale = val
       this.$refs.ulDrop.classList.remove('showup')
+      this.closeNav()
     },
     showMenu () {
       this.$refs.ulDrop.classList.toggle('showup')

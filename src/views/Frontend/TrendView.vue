@@ -17,7 +17,7 @@
         <div class="col-md-5">
           <div class="d-flex  flex-column">
             <img src="@/assets/images/Frontend/trend-1.png"  style="height:200px;"/>
-            <a class=" btn btn-secondary  text-white mt-3" href="@/assets/images/Frontend/FFF_2022-The_Journey_to_Carbon_Neutrality.pdf" download="newfilename">
+            <a class=" btn btn-secondary  text-white mt-3" :href="`${publicPath}FFF_2022-The_Journey_to_Carbon_Neutrality.pdf`" download>
               Download the PDF
             </a>
           </div>
@@ -33,7 +33,7 @@
         <div class="col-md-5 mt-5">
           <div class="d-flex  flex-column">
             <img src="@/assets/images/Frontend/trend-2.png"  style="height:200px;"/>
-            <a class=" btn btn-secondary  text-white mt-3" href="@/assets/images/Frontend/ispo-tt-fall-winter-24-25-digital-hd.pdf" download="newfilename">
+            <a class=" btn btn-secondary  text-white mt-3" :href="`${publicPath}ispo-tt-fall-winter-24-25-digital-hd.pdf`" download >
               Download the PDF
             </a>
           </div>
@@ -47,6 +47,11 @@
 <script>
 import VueLoading from '@/components/VueLoading.vue'
 export default {
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  },
   components: {
     VueLoading
   }
