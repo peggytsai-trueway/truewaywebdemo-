@@ -52,7 +52,7 @@
               @click.prevent="goToPosition('certifications')">{{ $t("nav.certification") }}</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fw-bold" to="/exhibition" @click="closeNav">{{ $t("nav.exhib") }}</router-link>
+            <router-link class="nav-link fw-bold" to="/exhib" @click="closeNav">{{ $t("nav.exhib") }}</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"

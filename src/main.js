@@ -25,7 +25,7 @@ router.beforeEach((to, from, next) => {
 
 const app = createApp(App)
 // globalProperties
-app.config.globalProperties.APP_URL = 'http://www.trueway.com.tw/api/news_class.php'
+app.config.globalProperties.APP_URL = 'http://www.trueway.com.tw/api/'
 app.use(VueAxios, axios)
 app.use(router)
 app.use(i18n)

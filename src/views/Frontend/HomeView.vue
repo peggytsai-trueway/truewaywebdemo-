@@ -101,7 +101,7 @@
             {{ $t("visitus.desc-1") }}
             <br />{{ $t("visitus.desc-2") }}
           </p>
-          <router-link to="/exhibition" class="btn btn-primary float-end ">{{ $t("button.findoutmore") }}
+          <router-link to="/exhib" class="btn btn-primary float-end ">{{ $t("button.findoutmore") }}
           </router-link>
           <div class="text-white mt-9 ms-md-3 me-md-7 ms-0 shadow-lg bg-notification p-3">
             <h3 class="fs-6 fw-bold">Recent Exhibition:</h3>

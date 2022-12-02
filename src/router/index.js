@@ -29,21 +29,12 @@ const routes = [
         component: () => import('../views/Frontend/TechView.vue')
       },
       {
-        path: 'exhibition',
+        path: 'exhib',
         component: () => import('../views/Frontend/ExhibView.vue'),
-        redirect: 'exhibition/news',
         children: [
           {
-            path: 'news',
+            path: 'news/:newsId',
             component: () => import('../components/Frontend/NewsView.vue')
-          },
-          {
-            path: 'exhibs',
-            component: () => import('../components/Frontend/ExhibsView.vue')
-          },
-          {
-            path: 'awards',
-            component: () => import('../components/Frontend/AwardsView.vue')
           }
         ]
       },
