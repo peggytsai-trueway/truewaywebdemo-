@@ -1,67 +1,119 @@
 <template>
-    <p class="text-info">Only shows Exhibitions news</p>
     <table class="table table-hover">
         <tbody>
-            <tr>
-                <td class="col-md-3 col-4"><img src="@/assets/images/Frontend/pday.png" alt="exhibition icon"
+            <tr v-for="item in news" :key="item.id" @click="goToPage(item.id, item.catid)">
+                <td class="col-md-3 col-4"><img :src="item.img_name_ori" @error="imgError(item)" alt="exhibition icon"
                         class="img-fluid"></td>
                 <td class="col-md-9 col-8">
-                    <h2 class="fs-6 fw-bold">2023 Performance Day (Functional Fabric Fair, Munich)</h2>
+                    <h2 class="fs-6 fw-bold">{{item.news_title}}</h2>
                     <hr>
-                    <p>We would like to invite you to visit Trueway's booth in March Performance Days in
-                        Portland.
-                        Trueway's team will be showing Trueway's latest developments in focusing on
-                        structured knitting of
-                        Spring / Summer 25 and Autumn / Winter 25 collection.</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-3 col-4"><img src="@/assets/images/Frontend/ispo.png" alt="" class="img-fluid">
-                </td>
-                <td class="col-md-9 col-8">
-                    <h2 class="fs-6 fw-bold">2022 ISPO(Munich)</h2>
-                    <hr>
-                    <p>We would like to invite you to visit Trueway's booth on 28th - 30th November
-                        Performance Days in
-                        Portland. Trueway's team will be showing Trueway's latest developments in focusing
-                        on structured
-                        knitting of Spring/Summer24 and Autumn/Winter24 collection.</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-3"><img src="@/assets/images/Frontend/pday.png" alt="exhibition icon" class="img-fluid">
-                </td>
-                <td class="col-9">
-                    <h2 class="fs-6 fw-bold">2022 Performance Day(Functional Fabric Fair, Portland)</h2>
-                    <hr>
-                    <p>We would like to invite you to visit Trueway's booth on 26th - 27th October
-                        Performanace Days
-                        in Portland. Trueway's team will be showing Trueway's latest developments in
-                        focusing on structured knitting of Spring/Summer 24 and Autumn/inter24 collection.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-3 col-4"><img src="@/assets/images/Frontend/pday.png" alt="exhibition icon"
-                        class="img-fluid"></td>
-                <td class="col-md-9 col-8">
-                    <h2 class="fs-6 fw-bold">2021 Performance Days- Digital Fair Week</h2>
-                    <hr>
-                    <p>We cordially invite you to visit us at the coming Performance days functional fabric
-                        fair in Munich.</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-3 col-4"><img src="@/assets/images/Frontend/ispo.png" alt="exhibition icon"
-                        class="img-fluid"></td>
-                <td class="col-md-9 col-8">
-                    <h2 class="fs-6 fw-bold">2019 ISPO</h2>
-                    <hr>
-                    <p>Dear Customer, We cordially invite you to visit us at the 2019 ISPO in Munich. You
-                        can find us at Hall C5 / Booth No.408. On Feb. 3rd- 6th, 2019,we will be featuring
-                        new collections for Winter 2019/20 + Summer 2020.</p>
+                    <p>{{item.news_desc}}</p>
                 </td>
             </tr>
         </tbody>
     </table>
+    <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center mt-7">
+      <li class="page-item" v-show="this.totalPages > 1"><a class="page-link" href="#" @click.prevent="goPrePage(this.currentPage)">Prev</a></li>
+      <li class="page-item" v-for="page in totalPages" :key="page+'page'" :class="{active: page === this.currentPage }"><a class="page-link" href="#" @click.prevent="changePage(page)" >{{page}}</a></li>
+      <li class="page-item" v-show="this.totalPages > 1"><a class="page-link" href="#" @click.prevent="goNextPage(this.currentPage)">Next</a></li>
+    </ul>
+  </nav>
 </template>
+
+<script>
+import { useI18n } from 'vue-i18n'
+export default {
+  setup () {
+    const { t, locale } = useI18n()
+    return {
+      t,
+      locale,
+      languageOptions: [
+        {
+          lang: 'zh',
+          name: '繁體中文'
+        },
+        {
+          lang: 'en',
+          name: 'English'
+        }
+      ]
+    }
+  },
+  data () {
+    return {
+      news: [],
+      newsContent: [],
+      totalPages: '',
+      currentPage: 1
+    }
+  },
+  methods: {
+    getDefaultData () {
+      const url = this.APP_URL + `news_class_list.php?lang=${this.locale}`
+      this.$http.get(url).then((res) => {
+        this.news = Object.values(res.data.result_data.data_list)
+        this.totalPages = res.data.total_page
+      })
+    },
+    goToPage (pageId, catId) {
+      this.$router.push(`/exhibcontent/${pageId}/${catId}`)
+    },
+    changePage (pageNum) {
+      console.log('點到頁數為', pageNum)
+      this.currentPage = pageNum
+      console.log('目前頁數為', this.currentPage)
+      const url = this.APP_URL + `news_class_list.php?lang=${this.locale}&page=${this.currentPage}`
+      this.$http.get(url)
+        .then((res) => {
+          this.news = Object.values(res.data.result_data.data_list)
+        })
+    },
+    goPrePage (currentPage) {
+      let preNum
+      if (currentPage > 1) {
+        preNum = currentPage - 1
+        console.log('點了上一頁 顯示頁數為', preNum)
+        const url = this.APP_URL + `news_class_list.php?lang=${this.locale}&page=${preNum}`
+        this.$http.get(url)
+          .then((res) => {
+            this.news = Object.values(res.data.result_data.data_list)
+            this.currentPage = preNum
+            console.log('已經到上一頁 目前頁數為', this.currentPage)
+          })
+      }
+    },
+    goNextPage (currentPage) {
+      let nextNum
+      if (currentPage === this.totalPages) {
+        return
+      }
+      if (currentPage < this.totalPages) {
+        nextNum = this.currentPage + 1
+        console.log('點了下一頁 下一頁頁數是', nextNum)
+        const url = this.APP_URL + `news_class_list.php?lang=${this.locale}&page=${nextNum}`
+        this.$http.get(url)
+          .then((res) => {
+            this.news = Object.values(res.data.result_data.data_list)
+            this.currentPage = nextNum
+            console.log('已經到下一頁 目前頁數是', this.currentPage)
+          })
+      }
+    },
+    toggleActive () {
+      if (this.isActive !== true) {
+        this.isActive = true
+      } else {
+        this.isActive = false
+      }
+    },
+    imgError (item) {
+      item.img_name_ori = require('@/assets/images/Frontend/Home/home-bg.jpg')
+    }
+  },
+  mounted () {
+    this.getDefaultData()
+  }
+}
+</script>

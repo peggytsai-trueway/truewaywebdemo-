@@ -11,23 +11,16 @@
       </nav>
       <div class="col-lg-2 col-md-3 col-12">
         <div class="list-group text-center">
-       <a href="#"  tabindex="-1" aria-disabled="true"
+          <a href="#" tabindex="-1" aria-disabled="true"
             class="fs-6 mb-0  fw-bold py-2 text-light list-group-item  list-group-item-action text-light disabled active"
             aria-current="true">{{ $t("ExhibView.News") }}</a>
-           <button v-for="item in newsList" :key="item.id" class="list-group-item list-group-item-action fw-bold text-primary" @click="changePage(item.id)">{{item.class_name}}</button>
+          <button v-for="item in newsList" :key="item.id"
+            class="list-group-item list-group-item-action fw-bold text-primary"
+            @click="changePage(item.id)">{{ item.class_name }}</button>
         </div>
       </div>
       <div class="col-lg-10 col-md-9 col-12 py-3 py-md-0">
         <router-view :key="$route.path"></router-view>
-        <!-- <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center mt-7">
-            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </nav> -->
       </div>
     </div>
   </div>
@@ -57,9 +50,7 @@ export default {
   },
   data () {
     return {
-      newsList: [],
-      defaultId: '',
-      defaultLang: ''
+      newsList: []
     }
   },
   components: {
@@ -74,19 +65,10 @@ export default {
       this.$http.get(url)
         .then((res) => {
           this.newsList = Object.values(res.data.result_data.data_list)
-          console.log(this.newsList)
-          this.defaultLang = this.locale
-          this.defaultId = this.newsList[0].id
-          console.log(this.defaultLang, this.defaultId)
-          this.displayDefaultData(this.defaultLang, this.defaultId)
         })
         .catch((err) => {
           console.log(err)
         })
-    },
-    displayDefaultData (lang, id) {
-      const defaultDataUrl = this.APP_URL + `news_class_list.php?lang=${lang}&catid=${id}`
-      console.log(defaultDataUrl)
     },
     changePage (pageid) {
       this.$router.push({ path: `/exhib/news/${pageid}` })

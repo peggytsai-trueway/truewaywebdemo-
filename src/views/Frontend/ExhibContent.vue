@@ -10,26 +10,23 @@
                 </ol>
             </nav>
             <div class="col-lg-2 col-md-3 col-12">
-                <ul class="list-group text-center">
-                    <li class="list-group-item bg-primary bg-gradient text-light">
-                        <h2 class="fs-6 mb-0  fw-bold py-1">NEWS</h2>
-                    </li>
-                    <li class="list-group-item bg-success"><a href="#" class="text-white text-decoration-underline">Exhibitions</a></li>
-                    <li class="list-group-item"><a href="#">Awards</a></li>
-                </ul>
+                <div class="list-group text-center">
+          <a href="#" tabindex="-1" aria-disabled="true"
+            class="fs-6 mb-0  fw-bold py-2 text-light list-group-item  list-group-item-action text-light disabled active"
+            aria-current="true">{{ $t("ExhibView.News") }}</a>
+          <button v-for="item in newsList" :key="item.id"
+            class="list-group-item list-group-item-action fw-bold text-primary"
+            @click="changePage(item.id)">{{ item.class_name }}</button>
+        </div>
             </div>
             <div class="col-lg-10 col-md-9 col-12 py-3 py-md-0">
-                <div class="border border-1">
-                    <div class="bg-success"><h2 class="fs-6 fw-bold px-3 py-3 text-white">2023 Performance Day (Functional Fabric Fair, Munich)</h2></div>
+                <div class="border border-1"  v-for="item in newsContent" :key="item.id">
+                    <div class="bg-success"><h2 class="fs-6 fw-bold px-3 py-3 text-white">{{item.news_title}}</h2></div>
                     <div class="p-3">
-                        <p>We would like to invite you to visit Trueway's booth in March Performance Days in
-                                    Portland.
-                                    Trueway's team will be showing Trueway's latest developments in focusing on
-                                    structured knitting of
-                                    Spring / Summer 25 and Autumn / Winter 25 collection.</p>
+                        <p>{{item.news_desc}}</p>
                     </div>
                 </div>
-                <button class="btn btn-primary float-end mt-3 rounded-0">Back to list</button>
+                <button class="btn btn-primary float-end mt-3 rounded-0" @click="goBack">Back to list</button>
             </div>
         </div>
     </div>
@@ -38,9 +35,69 @@
 
 <script>
 import VueLoading from '@/components/VueLoading.vue'
+import { useI18n } from 'vue-i18n'
 export default {
+  setup () {
+    const { t, locale } = useI18n()
+    return {
+      t,
+      locale,
+      languageOptions: [
+        {
+          lang: 'zh',
+          name: '繁體中文'
+        },
+        {
+          lang: 'en',
+          name: 'English'
+        }
+      ]
+    }
+  },
+  data () {
+    return {
+      newsList: [],
+      pageId: '',
+      catId: '',
+      newsContent: []
+    }
+  },
   components: {
     VueLoading
+  },
+  methods: {
+    goBack () {
+      this.$router.push('/exhib')
+    },
+    showNewsCate () {
+      const url = this.APP_URL + `news_class.php?lang=${this.locale}`
+      this.$http.get(url)
+        .then((res) => {
+          this.newsList = Object.values(res.data.result_data.data_list)
+        })
+        .catch((err) => {
+          console.log(err)
+        })
+    },
+    getData () {
+      const url = this.APP_URL + `news_class_detailed.php?lang=${this.locale}&catid=${this.catId}&id=${this.pageId}`
+      this.$http.get(url)
+        .then((res) => {
+          this.newsContent = Object.values(res.data.result_data.data_list)
+        })
+        .catch((err) => {
+          console.log(err)
+        })
+    },
+    changePage (pageid) {
+      this.$router.push({ path: `/exhib/news/${pageid}` })
+    }
+  },
+  mounted () {
+    this.showNewsCate()
+    this.pageId = this.$route.params.pageId
+    this.catId = this.$route.params.catId
+    this.getData()
   }
 }
 </script>

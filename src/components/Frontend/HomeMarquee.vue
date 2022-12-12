@@ -2,11 +2,11 @@
      <div class="marquee-bg bg-secondary overflow-auto">
       <div class="container text-white">
         <div>
-          <p class="pt-2 mb-0 fw-bold">Latest Update</p>
+          <p class="pt-2 mb-0 fw-bolder fs-6">Latest Update</p>
           <ul>
-            <li><router-link to="/exhibition" class="text-white"><span class="fw-bold">2022/09/30 </span>  2023 Performanace Day(Functional Fabric Fair, Munich)</router-link></li>
-            <li><router-link to="/exhibition" class="text-white"><span class="fw-bold">2022/09/26</span>2022 ISPO(Munich)...</router-link></li>
-            <li><router-link to="/" class="text-white"><span class="fw-bold">2022/09/21</span>2022 Functional Fabric Fair// Performance Days: The Journey to Carbon Neutrality</router-link></li>
+            <li><router-link to="/exhib" class="text-white latest-update"><span>2022/09/30 2023 Performanace Day(Functional Fabric Fair, Munich)</span></router-link></li>
+            <li><router-link to="/exhib" class="text-white latest-update"><span>2022/09/26  2022 ISPO(Munich)...</span></router-link></li>
+            <li><router-link to="/trend" class="text-white latest-update"><span>2022 Functional Fabric Fair// Performance Days: The Journey to Carbon Neutrality</span></router-link></li>
           </ul>
         </div>
       </div>
@@ -34,5 +34,11 @@
   background: #00A3E0;
   border-radius: 5px;
 }
+}
+.latest-update :hover{
+  color:#355070;
+  text-decoration: underline;
+  font-weight: 900;
+  background-color: #fff;
 }
 </style>

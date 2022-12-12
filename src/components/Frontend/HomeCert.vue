@@ -91,7 +91,7 @@
             <div class="col-md-6">
               <div class="d-flex bg-success align-items-center mt-3 mt-md-0">
                 <div class="w-25">
-                  <img src="@/assets/images/Frontend/Home/sewage_treatment.jpg"
+                  <img src="@/assets/images/Frontend/Home/sewage-pic.jpg"
                     alt="gas replaces petroleum image" style="width:100%; height:100px;">
                 </div>
                 <h3 class="fs-6 text-white ps-3">Planning Eco-Friendly System: <br>Sewage treatment system</h3>

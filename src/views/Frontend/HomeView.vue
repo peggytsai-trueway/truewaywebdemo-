@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-4 pt-4">
           <router-link to="/otherenduse" class="card mx-md-2 h-100 text-dark">
-            <img src="@/assets/images/Frontend/Home/yasu-shots-Iq0g7AUgecI-unsplas.jpg" class="card-img-top products-cardHeight"
+            <img src="@/assets/images/Frontend/Home/outdoor-nexttoskin.jpg" class="card-img-top products-cardHeight"
               alt="products image for other end use">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{ $t("products.producttype.otherenduse.title") }}</h5>
@@ -61,16 +61,12 @@
   <HomeCert></HomeCert>
   <!-- certification end -->
   <section class="trend-bg bg-success">
-    <div class="container overflow-hidden">
-      <div class="row py-3 align-items-md-center">
-        <div class="col-md-7">
-          <h2 class="text-white fw-bold fst-italic">{{ $t("trend.title") }}</h2>
-          <p class="text-white fw-bold">{{ $t("trend.desc") }}</p>
+    <div class="container">
+      <div class="row py-6 py-md-9">
+        <div class="offset-md-7 col-md-5">
+          <h2 class=" shadow-lg bg-dark px-3 py-2 d-inline-block text-white fw-bold fst-italic">{{ $t("trend.title") }}</h2>
+          <p class=" shadow-lg bg-dark px-3 py-2 text-white fw-bold">{{ $t("trend.desc") }}</p>
           <router-link to="/trend" class="btn btn-primary float-end">{{ $t("button.findoutmore") }}</router-link>
-        </div>
-        <div class="col-md-5">
-          <img src="@/assets/images/Frontend/Home/sergey-mikheev-EIniaP1qCRs-unsplash.jpg"
-            class="img-fluid rounded-circle mt-3" alt="trend image" style="max-height:400px;">
         </div>
       </div>
     </div>
@@ -107,10 +103,10 @@
             <h3 class="fs-6 fw-bold">Recent Exhibition:</h3>
             <ul>
               <li>
-                <a href="#" class="text-white">2022 ISPO (Munich)</a>
+                <router-link  to="/exhib" class="text-white latest-update"><span>2022 ISPO (Munich)</span></router-link>
               </li>
               <li>
-                <a href="#" class="text-white">2023 Performance Day (Functional Fabric Fair, Munich)</a>
+                <router-link to="/exhib" class="text-white latest-update"><span>2023 Performance Day (Functional Fabric Fair, Munich)</span></router-link>
               </li>
             </ul>
           </div>
@@ -189,6 +185,19 @@ export default {
 }
 
 .bg-notification{
-  background-color:  rgba(69,173,173,.25);
+  background-color:  rgba(69,173,173,.55);
+}
+.trend-bg{
+  background-image: url(@/assets/images/Frontend/Home/trend-bg.jpg);
+  height:450px;
+  background-position: left bottom;
+  background-size: cover;
+}
+
+.latest-update :hover{
+  color:#355070;
+  text-decoration: underline;
+  font-weight: 900;
+  background-color: #fff;
 }
 </style>
