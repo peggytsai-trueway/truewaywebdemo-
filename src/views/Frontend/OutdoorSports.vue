@@ -17,7 +17,7 @@
     </section>
     <section class="bg-outdoor">
         <div class="container">
-            <div class="row py-5">
+            <div class="row justify-content-center py-5">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb  mb-5">
                         <li class="breadcrumb-item"><router-link class="text-primary" to="/">Home</router-link></li>
@@ -25,14 +25,14 @@
                         <li class="breadcrumb-item active" aria-current="page">For Outdoor Sports</li>
                     </ol>
                 </nav>
-                <div class=" row bg-outsports py-4 rounded align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row  py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3  bg-outsports py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/OutdoorSports/iStock_000041188552XXXLarge-1.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
                             <h2 class="text-center fs-4 fw-bold">ECO Next to Skin</h2>
@@ -40,15 +40,15 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content nexttoskin-bg">
-                                    <div class="modal-header">
+                                    <div class="modal-header fw-bold">
                                         <h3 class="modal-title fs-5 text-light" id="staticBackdropLabelA">Next to Skin (GRS
                                             available)</h3>
                                         <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body text-light">
+                                    <div class="modal-body text-light fw-bold">
                                         <h4 class="fs-5 ">Features</h4>
                                         <p>Moisture Management category is the fabrics with function absorb and move
                                             sweat away quickly. Odor Management category is the fabrics with basically
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
                             <h2 class="text-center fs-4 fw-bold ">Next to Skin</h2>
@@ -73,7 +73,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Qdry Fleece (GRS
@@ -96,14 +96,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row bg-outsports py-4 mt-3 mt-md-5 rounded align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3 bg-outsports py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/OutdoorSports/snowbg.jpg" class="w-100 h-100"
                                 alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropA">
                             <h2 class="text-center fs-4 fw-bold">ECO Midlayer</h2>
@@ -111,7 +111,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropA" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content midlayer-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">Midlayer (GRS available)
@@ -139,15 +139,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropA">
-                            <h2 class="text-center fs-4 fw-bold ">Midlayer</h2>
+                            <h2 class="text-center fs-4 fw-bold">Midlayer</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropA" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header">
                                         <h3 class="modal-title fs-5 text-light" id="staticBackdropLabelA">Midlayer (GRS available)
@@ -176,14 +176,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row bg-outsports py-4 mt-3 mt-md-5 rounded align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3 bg-outsports py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/OutdoorSports/084218-1.jpg" class="w-100 h-100"
                                 alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
                             <h2 class="text-center fs-4 fw-bold">ECO Softshell</h2>
@@ -191,7 +191,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content softshell-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">Softshell (GRS available)
@@ -212,15 +212,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0  bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
-                            <h2 class="text-center fs-4 fw-bold ">Softshell</h2>
+                            <h2 class="text-center fs-4 fw-bold">Softshell</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content softshell-bg">
                                     <div class="modal-header">
                                         <h3 class="modal-title fs-5 text-light fw-bold" id="staticBackdropLabelA">Softshell</h3>
@@ -241,14 +241,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row bg-outsports py-4 mt-3 mt-md-5 rounded align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row justify-content-center py-4 align-items-stretch">
+                    <div class="col-12 col-md-3 bg-outsports py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/OutdoorSports/truewayfit.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 mb-1 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropC">
                             <h2 class="text-center fs-4 fw-bold">Trueway Fit</h2>
@@ -256,15 +256,15 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropC" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content modal-bg">
-                                    <div class="modal-header bg-secondary">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                <div class="modal-content truewayfit-bg">
+                                    <div class="modal-header">
                                         <h3 class="modal-title fs-5 text-light fw-bold" id="staticBackdropLabelA">Trueway Fit
                                         </h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body text-light">
                                         <p>Trueway Fit collection is divided into 3 levels, Fit-Extreme, Fit-Superior and
                                 Fit-Classic.
                                 The elastic construction of fabric supports athletes to lessen muscular vibration when
@@ -287,30 +287,30 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row bg-outsports py-4 mt-3 mt-md-5 rounded align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 align-items-stretch justify-content-center">
+                    <div class="col-12 col-md-3  bg-outsports py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/OutdoorSports/fabric-lamination.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 mb-1 mb-md-0  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropD">
-                            <h2 class="text-center fs-4 fw-bold">Fabric for Laminaion</h2>
+                            <h2 class="text-center fs-4 fw-bold">Fabric for Lamination</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropD" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content qdry-bg">
-                                    <div class="modal-header bg-secondary">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                <div class="modal-content  lamination-bg">
+                                    <div class="modal-header ">
                                         <h3 class="modal-title fs-5 text-light fw-bold" id="staticBackdropLabelA">Fabric for Laminaion
                                         </h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body text-light">
                                         <h4 class="fs-5">Features</h4>
                                         <p>10D~75D of yarn, super lightweight, jacquard design, fleeceable
                                         </p>
@@ -371,7 +371,7 @@ export default {
 
 @media screen and (max-width: 767px) {
     .pic-effect {
-        height: 100px;
+        height: auto;
     }
 }
 
@@ -418,5 +418,13 @@ export default {
 }
 .softshell-bg{
     background-image:url(@/assets/images/Frontend/Products/OutdoorSports/softshell-modal-bg.jpg);
+}
+.truewayfit-bg{
+    background-image: url(@/assets/images/Frontend/Products/OutdoorSports/truway-fit-modal-bg.jpg);
+    background-size: cover;
+}
+.lamination-bg{
+    background-image: url(@/assets/images/Frontend/Products/OutdoorSports/fabricForLamination-modal-bg.jpg);
+    background-size: cover;
 }
 </style>

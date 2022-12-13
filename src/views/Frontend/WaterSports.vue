@@ -30,14 +30,14 @@
                         <li class="breadcrumb-item active" aria-current="page">For Water Sports</li>
                     </ol>
                 </nav>
-                <div class=" row py-4 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3 mb-md-0 bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/qdry-fleece2.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 mb-md-0 bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
                             <h2 class="text-center fs-4 fw-bold">ECO QdryFleece</h2>
@@ -45,12 +45,12 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content qdry-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Qdry Fleece (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -67,20 +67,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-products py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
-                            <h2 class="text-center fs-4 fw-bold ">Qdry Fleece</h2>
+                            <h2 class="text-center fs-4 fw-bold">Qdry Fleece</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Qdry Fleece (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -98,14 +98,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 mt-3 mt-md-0 align-items-stretch justify-content-center">
+                    <div class="col-12 col-md-3  mb-md-0  bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/water-polyester-stretch1.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3  bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
                             <h2 class="text-center fs-4 fw-bold">ECO Polyester Stretch</h2>
@@ -113,13 +113,13 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content polyesterstretch-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Polyester Stretch
                                             (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0  bg-products py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
                             <h2 class="text-center fs-4 fw-bold ">Polyester Stretch</h2>
@@ -145,7 +145,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Polyester Stretch
@@ -169,14 +169,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 mt-3 mt-md-0 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3  bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/Nylon-stretch-1.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3  bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropC">
                             <h2 class="text-center fs-4 fw-bold">ECO Nylon Stretch</h2>
@@ -184,12 +184,12 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropC" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content nylonstretch-bg">
                                     <div class="modal-header text-light fw-bold">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Nylon Stretch (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light fw-bold">
@@ -206,7 +206,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-products py-3 ">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropC">
                             <h2 class="text-center fs-4 fw-bold ">Nylon Stretch</h2>
@@ -214,13 +214,13 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropC" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Polyester Stretch
                                             (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -238,14 +238,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3  bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/polyester-stretch-1.jpeg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropD">
                             <h2 class="text-center fs-4 fw-bold">ECO Polyester</h2>
@@ -253,11 +253,11 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropD" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content polyester-bg">
                                     <div class="modal-header text-dark">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Polyester</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-dark" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-dark fw-bold">
@@ -274,7 +274,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-products py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropD">
                             <h2 class="text-center fs-4 fw-bold ">Polyester</h2>
@@ -282,13 +282,13 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropD" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Polyester Stretch
                                             (GRS
                                             available)</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-dark" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -306,14 +306,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4  justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/ECO-nylon-stretch.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropE">
                             <h2 class="text-center fs-4 fw-bold">ECO Nylon</h2>
@@ -321,11 +321,11 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropE" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content nylon-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelE">ECO Nylon</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -342,19 +342,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-products py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropE">
-                            <h2 class="text-center fs-4 fw-bold ">ECO Nylon</h2>
+                            <h2 class="text-center fs-4 fw-bold">ECO Nylon</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropE" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Nylon</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -372,14 +372,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 align-items-stretch justify-content-center">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/surf_cover02-1.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropF">
                             <h2 class="text-center fs-4 fw-bold">ECO Finex</h2>
@@ -387,11 +387,11 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropF" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content finex-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5" id="staticBackdropLabelE">ECO Finex</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
@@ -405,7 +405,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-products py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropF">
                             <h2 class="text-center fs-4 fw-bold ">Finex</h2>
@@ -413,7 +413,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropF" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
                                         <h3 class="modal-title fs-5 fw-bolder " id="staticBackdropLabelA">ECO Nylon</h3>
@@ -432,14 +432,14 @@
                         </div>
                     </div>
                 </div>
-                <div class=" row py-4 mt-3 mt-md-5 bg-products rounded shadow-lg align-items-stretch">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class=" row py-4 justify-content-center align-items-stretch">
+                    <div class="col-12 col-md-3 bg-products py-3">
                         <div class="pic-effect">
                             <img src="@/assets/images/Frontend/Products/WaterSports/qubicfit-1.jpg"
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-1 mb-md-0">
+                    <div class="col-12 col-md-3 mb-1 mb-md-0 bg-products py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropG">
                             <h2 class="text-center fs-4 fw-bold">Qubicfit & Functional</h2>
@@ -447,11 +447,11 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropG" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content qubicfit-bg">
                                     <div class="modal-header text-dark">
                                         <h3 class="modal-title fs-5 fw-bold" id="staticBackdropLabelE">Qubicfit & Functional</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-dark">
@@ -509,14 +509,14 @@ export default {
 }
 
 .pic-effect {
-    max-height: 200px;
+    height: 180px;
     overflow: hidden;
     border-radius: 6px;
 }
 
 @media screen and (max-width: 992px) {
     .pic-effect {
-        height: 175px;
+        height: 150px;
     }
 }
 
@@ -553,7 +553,7 @@ export default {
 }
 
 .bg-products {
-    background-color: rgba(28, 30, 32, 0.65)
+    background-color: rgba(28, 30, 32, 0.65);
 }
 
 .qdry-bg{
@@ -572,7 +572,8 @@ export default {
     background-image: url(@/assets/images/Frontend/Products/WaterSports/nylon-modal-bg.jpg);
 }
 .polyester-bg{
-    background-image: url(@/assets/images/Frontend/Products/WaterSports/polyester-modal-bg.jpg)
+    background-image: url(@/assets/images/Frontend/Products/WaterSports/polyester-modal-bg.jpg);
+    filter: grayscale(80%);
 }
 
 .finex-bg{

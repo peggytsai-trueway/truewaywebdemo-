@@ -35,11 +35,10 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content modal-bg">
-                                    <div class="modal-header text-light">
-                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Qdry Fleece (GRS
-                                            available)</h3>
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                <div class="modal-content ">
+                                    <div class="modal-header text-dark">
+                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">Medi/Sport Protective Gear</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -65,11 +64,10 @@
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content modal-bg">
                                     <div class="modal-header text-light">
-                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">ECO Qdry Fleece (GRS
-                                            available)</h3>
+                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">Cart/Medi Cover</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>

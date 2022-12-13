@@ -103,9 +103,6 @@
             <h3 class="fs-6 fw-bold">Recent Exhibition:</h3>
             <ul>
               <li>
-                <router-link  to="/exhib" class="text-white latest-update"><span>2022 ISPO (Munich)</span></router-link>
-              </li>
-              <li>
                 <router-link to="/exhib" class="text-white latest-update"><span>2023 Performance Day (Functional Fabric Fair, Munich)</span></router-link>
               </li>
             </ul>
