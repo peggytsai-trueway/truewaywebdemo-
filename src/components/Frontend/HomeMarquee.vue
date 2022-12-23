@@ -17,7 +17,7 @@
 .marquee-bg {
   height: calc(100vh - 75vh - 57.6px);
 }
-@media screen and (max-width: 996px){
+@media screen and (max-width: 576px){
   /* width */
 ::-webkit-scrollbar {
   width: 10px;

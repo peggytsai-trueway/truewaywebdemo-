@@ -64,8 +64,8 @@
     <div class="container">
       <div class="row py-6 py-md-9">
         <div class="offset-md-7 col-md-5">
-          <h2 class=" shadow-lg bg-dark px-3 py-2 d-inline-block text-white fw-bold fst-italic">{{ $t("trend.title") }}</h2>
-          <p class=" shadow-lg bg-dark px-3 py-2 text-white fw-bold">{{ $t("trend.desc") }}</p>
+          <h2 class="bg-opacity-primary px-3 py-2 d-inline-block text-white fw-bold fst-italic">{{ $t("trend.title") }}</h2>
+          <p class="bg-opacity-primary px-3 py-2 text-white fw-bold">{{ $t("trend.desc") }}</p>
           <router-link to="/trend" class="btn btn-primary float-end">{{ $t("button.findoutmore") }}</router-link>
         </div>
       </div>
@@ -189,6 +189,10 @@ export default {
   height:450px;
   background-position: left bottom;
   background-size: cover;
+}
+
+.bg-opacity-primary{
+  background-color: rgba(0, 165, 224, 0.5);
 }
 
 .latest-update :hover{

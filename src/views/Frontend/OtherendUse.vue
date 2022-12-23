@@ -1,30 +1,41 @@
 <template>
-  <section class="otherenduse-bg bg-cover container-fluid">
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-md-6">
-          <div class="text-white fw-bold">
-            <h2 class="mb-3">Other End Use</h2>
-            <p class="mb-0">Besides water and outdoor sports fabrics ,the knitted fabrics we elaborately developed can also be used for shoe lining ,shock- absorbing pad of bags , knee and elbow supports …and many other uses. Custom development is our strength, feel free to tell us your needs!</p>
-          </div>
+    <section class="otherenduse-bg bg-cover container-fluid">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <div class="text-white fw-bold">
+                        <h2 class="mb-3">Other End Use</h2>
+                        <p class="mb-0">Besides water and outdoor sports fabrics ,the knitted fabrics we elaborately
+                            developed can also be used for shoe lining ,shock- absorbing pad of bags , knee and elbow
+                            supports …and many other uses. Custom development is our strength, feel free to tell us your
+                            needs!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-otherend">
-    <div class="container">
-     <div class="row py-5">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-5">
-          <li class="breadcrumb-item"><router-link class="text-primary" to="/">Home</router-link></li>
-          <li class="breadcrumb-item "><router-link class="text-primary" to="/">Products</router-link></li>
-          <li class="breadcrumb-item active" aria-current="page">Other End Use</li>
-        </ol>
-      </nav>
-      <div class=" row py-4 rounded bg-otherproduct align-items-stretch">
+    </section>
+    <section class="bg-otherend">
+        <div class="container min-vh-50">
+            <div class="py-5">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-5">
+                        <li class="breadcrumb-item">
+                            <router-link class="text-primary" to="/">{{ $t("nav.home") }}</router-link>
+                        </li>
+                        <li class="breadcrumb-item ">
+                            <router-link class="text-primary" to="/">{{ $t("nav.producttype.products") }}</router-link>
+                        </li>
+                        <li class="breadcrumb-item active fw-bold" aria-current="page">{{
+                                $t("nav.producttype.otherenduse")
+                        }}</li>
+                    </ol>
+                </nav>
+                <div class="container">
+                <div class=" row py-4 rounded bg-otherproduct ">
                     <div class="col-12 col-md-4 mb-3 mb-md-0">
                         <div class="pic-effect">
-                            <img src="@/assets/images/Frontend/Products/OtherEndUse/Products-other-end-use.jpg" class="w-100 h-100" alt="">
+                            <img src="@/assets/images/Frontend/Products/OtherEndUse/Products-other-end-use.jpg"
+                                class="w-100 h-100" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mb-1 mb-md-0">
@@ -38,7 +49,8 @@
                             <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content ">
                                     <div class="modal-header text-dark">
-                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">Medi/Sport Protective Gear</h3>
+                                        <h3 class="modal-title fs-5" id="staticBackdropLabelA">Medi/Sport Protective
+                                            Gear</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -86,10 +98,11 @@
                         </div>
                     </div>
                 </div>
-      </div>
-     </div>
-  </section>
- <VueLoading></VueLoading>
+            </div>
+            </div>
+        </div>
+    </section>
+    <VueLoading></VueLoading>
 </template>
 
 <script>
@@ -102,23 +115,26 @@ export default {
 </script>
 
 <style lang="scss">
- .otherenduse-bg{
+.otherenduse-bg {
     background-color: gray;
     height: 400px;
-    width:100%;
-    background-position:center;
-    h2, p{
+    width: 100%;
+    background-position: center;
+
+    h2,
+    p {
         text-shadow: 2px 2px 5px #00A3E0;
         font-weight: 900;
     }
-  }
-  .bg-otherend{
-    background-color: #96939a4b;
-  }
+}
 
-  .bg-otherproduct{
+.bg-otherend {
+    background-color: #96939a4b;
+}
+
+.bg-otherproduct {
     background-color: #45adad49;
-  }
+}
 
 .pic-effect {
     max-height: 200px;
@@ -151,7 +167,7 @@ export default {
     transform: scale(1.2, 1.2);
 }
 
- .btn-title {
+.btn-title {
     background-color: #49607d8b;
     color: rgba(255, 255, 255, .85);
 }
@@ -159,8 +175,13 @@ export default {
 .btn-title:hover {
     background-color: rgba(20, 21, 21, 0.377);
     color: rgba(0, 0, 0, .85);
-    h2{
+
+    h2 {
         background-color: transparent;
     }
+}
+
+.min-vh-50{
+  min-height: 50vh;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container min-vh-75">
         <div class="row py-md-5 py-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-5">
@@ -9,7 +9,7 @@
                     <li class="breadcrumb-item active" aria-current="page">Exhibition</li>
                 </ol>
             </nav>
-            <div class="col-lg-2 col-md-3 col-12">
+            <div class="col-lg-2 col-md-3 col-12 ">
                 <div class="list-group text-center">
           <a href="#" tabindex="-1" aria-disabled="true"
             class="fs-6 mb-0  fw-bold py-2 text-light list-group-item  list-group-item-action text-light disabled active"
@@ -112,5 +112,9 @@ export default {
   font-weight: 900;
   background-color: #FFF;
   border-color: #00A3E0;
+}
+
+.min-vh-75{
+  min-height: 75vh;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
     <section class="outdoorsports-bg bg-cover container-fluid">
         <div class="container">
-            <div class="row py-5">
-                <div class="col-md-6">
+            <div class="row py-5 ">
+                <div class="col-md-6 py-5">
                     <div class="text-white fw-bold">
                         <h2 class="mb-3 ">For Outdoor Sports</h2>
                         <p class="mb-0">Trueway believe that only the vast and eternal nature is the driving force for
@@ -20,9 +20,13 @@
             <div class="row justify-content-center py-5">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb  mb-5">
-                        <li class="breadcrumb-item"><router-link class="text-primary" to="/">Home</router-link></li>
-                        <li class="breadcrumb-item"><router-link class="text-primary" to="/">Products</router-link></li>
-                        <li class="breadcrumb-item active" aria-current="page">For Outdoor Sports</li>
+                        <li class="breadcrumb-item">
+                            <router-link class="text-primary" to="/">{{ $t("nav.home") }}</router-link>
+                        </li>
+                        <li class="breadcrumb-item ">
+                            <router-link class="text-primary" to="/">{{ $t("nav.producttype.products") }}</router-link>
+                        </li>
+                        <li class="breadcrumb-item active fw-bold" aria-current="page">{{ $t("nav.producttype.outdoorsports") }}</li>
                     </ol>
                 </nav>
                 <div class=" row  py-4 justify-content-center align-items-stretch">
@@ -32,10 +36,10 @@
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  bg-outsports py-3">
+                    <div class="col-12 col-md-6  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
-                            <h2 class="text-center fs-4 fw-bold">ECO Next to Skin</h2>
+                            <h2 class="text-center fs-4 fw-bold">ECO Next to Skin / Next to Skin</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -43,12 +47,13 @@
                             <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content nexttoskin-bg">
                                     <div class="modal-header fw-bold">
-                                        <h3 class="modal-title fs-5 text-light" id="staticBackdropLabelA">Next to Skin (GRS
-                                            available)</h3>
+                                        <h3 class="modal-title fs-5 text-light" id="staticBackdropLabelA">NEXT TO SKIN (GRS available)</h3>
                                         <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light fw-bold">
+                                       <p>Next to Skin collection includes Moisture Management, Odor Management, Delicatech and Easycare,
+                                        This collection is breathable fabrics can be as first layer for outdoor activities.</p>
                                         <h4 class="fs-5 ">Features</h4>
                                         <p>Moisture Management category is the fabrics with function absorb and move
                                             sweat away quickly. Odor Management category is the fabrics with basically
@@ -59,18 +64,17 @@
                                             helps in cleaning clothes simply. </p>
                                         <hr>
                                         <h4 class="fs-5">Application</h4>
-                                        <p>diving suits, surfing suits, athletic appliances, medical supports.</p>
+                                        <p>First layer for any outdoor activities.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
+                    <!-- <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
                             <h2 class="text-center fs-4 fw-bold ">Next to Skin</h2>
                         </button>
-                        <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -94,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" row py-4 justify-content-center align-items-stretch">
                     <div class="col-12 col-md-3 bg-outsports py-3">
@@ -103,10 +107,10 @@
                                 alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 bg-outsports py-3">
+                    <div class="col-12 col-md-6 bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropA">
-                            <h2 class="text-center fs-4 fw-bold">ECO Midlayer</h2>
+                            <h2 class="text-center fs-4 fw-bold">ECO Midlayer / Midlayer</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropA" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -120,6 +124,9 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
+                                        <p>Mid layer has 4 categories, zip-up, Moonrise, Bi-Moonrise and Warmbase.
+                                           This collection is designed as the layer on Next to Skin but under a shell,
+                                           the key function is thermal, also wicking and quick dry.</p>
                                         <h4 class="fs-5">Features</h4>
                                         <p>Zip-up category is fabric with warm touch, that protects the body’s core
                                             temperature, fabric weight ≦300 g/m2.
@@ -139,12 +146,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
+                    <!-- <div class="col-12 col-md-3 mb-2 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropA">
                             <h2 class="text-center fs-4 fw-bold">Midlayer</h2>
                         </button>
-                        <!-- Modal -->
                         <div class="modal fade" id="staticBackdropA" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -156,6 +162,9 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
+                                        <p>Mid layer has 4 categories, zip-up, Moonrise, Bi-Moonrise and Warmbase.
+                                            This collection is designed as the layer on Next to Skin but under a shell,
+                                            the key function is thermal, also wicking and quick dry.</p>
                                         <h4 class="fs-5 text-light">Features</h4>
                                         <p>Zip-up category is fabric with warm touch, that protects the body’s core
                                             temperature, fabric weight ≦300 g/m2.
@@ -174,7 +183,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" row py-4 justify-content-center align-items-stretch">
                     <div class="col-12 col-md-3 bg-outsports py-3">
@@ -183,10 +192,10 @@
                                 alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  bg-outsports py-3">
+                    <div class="col-12 col-md-6  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
-                            <h2 class="text-center fs-4 fw-bold">ECO Softshell</h2>
+                            <h2 class="text-center fs-4 fw-bold">ECO Softshell / Softshell</h2>
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -200,10 +209,13 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
+                                        <p>We offer different functions of PU, TPU, ECO TPEE membrane from layers,
+                                            2.5 layers, 3 layers to laminated with low den from 10D to 30D super
+                                            light and  50D to 100D soft hand feel single and double jersey.
+                                            even to bring it up a level to laminated with fleece or non-fleece
+                                           jacquard fabric to provide manifold performance to bring a more luxurious wearing experience.</p>
                                         <h4 class="fs-5">Features</h4>
-                                        <p>wide range of laminated with 10D~75D super lightweight to fleece fabrics,
-                                            jacquard design, functionable
-                                        </p>
+                                        <p>wide range option, super light weigh, various combination, Jacquard available.</p>
                                         <hr>
                                         <h4 class="fs-5">Application</h4>
                                         <p>Active. sports, performance jacket, ski jacket, rain jacket.</p>
@@ -212,12 +224,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mb-2 mb-md-0  bg-outsports py-3">
+                    <!-- <div class="col-12 col-md-3 mb-2 mb-md-0  bg-outsports py-3">
                         <button type="button" class="btn btn-title border-0  px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropB">
                             <h2 class="text-center fs-4 fw-bold">Softshell</h2>
                         </button>
-                        <!-- Modal -->
                         <div class="modal fade" id="staticBackdropB" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -239,7 +250,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" row justify-content-center py-4 align-items-stretch">
                     <div class="col-12 col-md-3 bg-outsports py-3">
@@ -248,7 +259,7 @@
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mb-1 mb-md-0 bg-outsports py-3">
+                    <div class="col-12 col-md-6 mb-1 mb-md-0 bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropC">
                             <h2 class="text-center fs-4 fw-bold">Trueway Fit</h2>
@@ -266,11 +277,8 @@
                                     </div>
                                     <div class="modal-body text-light">
                                         <p>Trueway Fit collection is divided into 3 levels, Fit-Extreme, Fit-Superior and
-                                Fit-Classic.
-                                The elastic construction of fabric supports athletes to lessen muscular vibration when
-                                training.
-                                Fabric includes basic function wicks moisture, dries quickly and controls odor.
-                                      </p>
+                                           Fit-Classic.The elastic construction of fabric supports athletes to lessen muscular vibration when training.
+                                           Fabric includes basic function wicks moisture, dries quickly and controls odor.</p>
                                         <h4 class="fs-5">Features</h4>
                                         <p>Fit-Extreme category is constructed by elastic over 14%, it is powerful to
                                             tighten muscular movement, to enhance explosive energy. Fit-Superior
@@ -294,7 +302,7 @@
                                 class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mb-1 mb-md-0  bg-outsports py-3">
+                    <div class="col-12 col-md-6 mb-1 mb-md-0  bg-outsports py-3">
                         <button type="button" class="btn border-0 btn-title px-0 w-100 h-100" data-bs-toggle="modal"
                             data-bs-target="#staticBackdropD">
                             <h2 class="text-center fs-4 fw-bold">Fabric for Lamination</h2>
@@ -311,12 +319,14 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-light">
+                                        <p>low den from 10D to 30D super light and  50D to 100D
+                                            soft hand feel single and double jersey.
+                                            even to bring it up a level to laminated with fleece or non-fleece jacquard fabric</p>
                                         <h4 class="fs-5">Features</h4>
-                                        <p>10D~75D of yarn, super lightweight, jacquard design, fleeceable
-                                        </p>
+                                        <p>wide range option, super light weigh, various combination, Jacquard available.</p>
                                         <hr>
                                         <h4 class="fs-5">Application</h4>
-                                        <p>2 layer and 3 layer lamination fabric</p>
+                                        <p>2 layer , 2.5 layer and 3 layer lamination fabric</p>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +351,7 @@ export default {
 <style lang="scss">
 .outdoorsports-bg {
     background-image: url(@/assets/images/Frontend/outdoor-bg.jpg);
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-position: 40% center;
     filter: contrast(80%);

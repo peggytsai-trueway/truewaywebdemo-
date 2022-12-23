@@ -4,8 +4,8 @@
       <div class="row py-5">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb  mb-5">
-            <li class="breadcrumb-item"><router-link class="text-primary" to="/">Home</router-link></li>
-            <li class="breadcrumb-item active" aria-current="page">Trend</li>
+            <li class="breadcrumb-item"><router-link class="text-primary" to="/">{{ $t("nav.home") }}</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ $t("nav.trend") }}</li>
           </ol>
         </nav>
         <div class="col-md-7">

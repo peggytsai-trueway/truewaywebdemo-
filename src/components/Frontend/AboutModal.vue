@@ -5,7 +5,7 @@
       <div class="row justify-content-md-center flex-md-row flex-column">
         <div class="col mb-sm-3 text-center text-lg-end">
           <!-- Button trigger modal (Our Story)-->
-          <button  type="button" class="btn btn-outline-light btn-primary mb-3 fw-bold "
+          <button  type="button" class="btn btn-outline-light  btn-lg btn-primary mb-3 fw-bold "
             data-bs-toggle="modal" data-bs-target="#exampleModal">
              {{$t("about.buttons.ourstory")}}
             <svg class="ms-1 bi bi-arrow-up-right-circle" xmlns="http://www.w3.org/2000/svg" width="16"
@@ -47,7 +47,7 @@
         </div>
         <div class="col mb-sm-3 text-center">
           <!-- Button trigger modal (History)-->
-          <button type="button" class="btn btn-outline-light btn-primary  mb-3 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <button type="button" class="btn btn-outline-light btn-primary  btn-lg mb-3 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal1">
             {{$t("about.buttons.history")}}<svg class="ms-1 bi bi-arrow-up-right-circle" xmlns="http://www.w3.org/2000/svg" width="16"
               height="16" fill="currentColor" viewBox="0 0 16 16">
               <path fill-rule="evenodd"
@@ -143,7 +143,7 @@
           </div>
         </div>
         <div class="col text-center text-lg-start text-success">
-          <button type="button" class="btn btn-outline-light btn-primary mb-3 fw-bold"
+          <button type="button" class="btn btn-outline-light btn-primary btn-lg mb-3 fw-bold"
             data-bs-toggle="modal" data-bs-target="#exampleModal2">
             {{$t("about.buttons.vision")}}<svg class="ms-1 bi bi-arrow-up-right-circle" xmlns="http://www.w3.org/2000/svg" width="16"
               height="16" fill="currentColor" viewBox="0 0 16 16">

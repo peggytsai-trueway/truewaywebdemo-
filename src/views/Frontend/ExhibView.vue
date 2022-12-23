@@ -4,9 +4,9 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb mb-5">
           <li class="breadcrumb-item">
-            <router-link to="/" class="text-primary">Home</router-link>
+            <router-link to="/" class="text-primary">{{ $t("nav.home") }}</router-link>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">Exhibition</li>
+          <li class="breadcrumb-item active" aria-current="page">{{ $t("nav.exhib") }}</li>
         </ol>
       </nav>
       <div class="col-lg-2 col-md-3 col-12">
